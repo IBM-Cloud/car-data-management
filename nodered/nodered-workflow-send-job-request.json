@@ -1,0 +1,60 @@
+[{
+	"id": "7e90ca50.6bb2f4",
+	"type": "http request",
+	"z": "cd02bfe3.0ff92",
+	"name": "sendJobRequest",
+	"method": "POST",
+	"ret": "obj",
+	"url": "https://{{driverHostname}}/driverinsights/jobcontrol/job?tenant_id={{driverTenantId}}",
+	"x": 583,
+	"y": 185,
+	"wires": [["cb464a55.d465f8"]]
+},{
+	"id": "2fdab27d.37c83e",
+	"type": "inject",
+	"z": "cd02bfe3.0ff92",
+	"name": "sendJobRequest_Inject",
+	"topic": "",
+	"payload": "",
+	"payloadType": "date",
+	"repeat": "",
+	"crontab": "",
+	"once": false,
+	"x": 161,
+	"y": 184,
+	"wires": [["dc28a4b7.59f538"]]
+},{
+	"id": "cb464a55.d465f8",
+	"type": "debug",
+	"z": "cd02bfe3.0ff92",
+	"name": "",
+	"active": true,
+	"console": "false",
+	"complete": "payload",
+	"x": 797,
+	"y": 110,
+	"wires": []
+},{
+	"id": "dc28a4b7.59f538",
+	"type": "function",
+	"z": "cd02bfe3.0ff92",
+	"name": "Config",
+	"func": "msg.driverHostname = \"automotive.internetofthings.ibmcloud.com\";\nmsg.driverTenantId = \"FIX-ME\";\nmsg.payload = {\"from\": \"2016-03-11\", \"to\": \"2016-3-11\"};\nreturn msg;",
+	"outputs": 1,
+	"noerr": 0,
+	"x": 353,
+	"y": 184,
+	"wires": [["7e90ca50.6bb2f4",
+	"26d0a025.cbc03"]]
+},{
+	"id": "26d0a025.cbc03",
+	"type": "debug",
+	"z": "cd02bfe3.0ff92",
+	"name": "",
+	"active": false,
+	"console": "false",
+	"complete": "true",
+	"x": 496,
+	"y": 278,
+	"wires": []
+}]
