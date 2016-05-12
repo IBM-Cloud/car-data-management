@@ -288,7 +288,7 @@ The **Node-RED** workflow receives car probe data through the **Watson IoT Platf
 
 1. Double-click the **Common Config** node.
 <p align="center">
-<img src="img/bluemix-nodered-app1/image27.png" alt="" width="200px" />
+<img src="img/bluemix-nodered-app1/image27.png" alt="" width="20%" hight="20%"/>
 </p>
 
 1. Set the values for `msg.mapTenantId` and `msg.driverTenantId`.
@@ -300,7 +300,7 @@ The **Node-RED** workflow receives car probe data through the **Watson IoT Platf
 
 1. Double-click the **mapMatching** node.
 <p align="center">
-<img src="img/bluemix-nodered-app1/image29.png" alt="" width="200px" />
+<img src="img/bluemix-nodered-app1/image29.png" alt="" width="20%" hight="20%"/>
 </p>
 
 1. Select **Use basic authentication?** and enter the following credentials:
@@ -312,7 +312,7 @@ The **Node-RED** workflow receives car probe data through the **Watson IoT Platf
 
 1. Double-click the **getLinkInformation** node.
 <p align="center">
-<img src="img/bluemix-nodered-app1/image31.png " alt="" width="200px" />
+<img src="img/bluemix-nodered-app1/image31.png " alt="" width="20%" hight="20%" />
 </p>
 
 1. Select **Use basic authentication?** and enter the following credentials:
@@ -321,8 +321,9 @@ The **Node-RED** workflow receives car probe data through the **Watson IoT Platf
 
 12. Double-click **carProbe**.
 <p align="center">
-<img src="img/bluemix-nodered-app1/image32.png" alt="" width="150px" />
+<img src="img/bluemix-nodered-app1/image32.png" alt="" width="20%" hight="20%" />
 </p>
+
 1. Select **Use basic authentication?** and enter the following credentials:
    * **Username**: Username from **Driver Behavior**
    * **Password**: Password from **Driver Behavior**
@@ -350,7 +351,7 @@ This **Node-RED** workflow requests an analysis job for the stored car probe dat
 
 1. Double-click **Config**.
 <p align="center">
-<img src="img/bluemix-nodered-app2/002.png" alt="" width="150px" />
+<img src="img/bluemix-nodered-app2/002.png" alt="" width="20%" hight="20%"/>
 </p>
 
 1. <a name="config_fromto"></a>Enter a value for `msg.driverTenantId`.
@@ -361,7 +362,7 @@ This **Node-RED** workflow requests an analysis job for the stored car probe dat
 
 1. Double-click **sendJobRequest**.
 <p align="center">
-<img src="img/bluemix-nodered-app2/004.png" alt="" width="200px" />
+<img src="img/bluemix-nodered-app2/004.png" alt="" width="20%" hight="20%" />
 </p>
 
 1. Select **Use basic authentication?** enter the following credentials:
