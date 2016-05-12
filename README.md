@@ -321,7 +321,7 @@ The **Node-RED** workflow receives car probe data through the **Watson IoT Platf
 
 12. Double-click **carProbe**.
 <p align="center">
-<img src="img/bluemix-nodered-app1/image32.png" alt="" width="20%" hight="20%" />
+<img src="img/bluemix-nodered-app1/image32.png" alt="" width="15%" hight="15%" />
 </p>
 
 1. Select **Use basic authentication?** and enter the following credentials:
@@ -351,7 +351,7 @@ This **Node-RED** workflow requests an analysis job for the stored car probe dat
 
 1. Double-click **Config**.
 <p align="center">
-<img src="img/bluemix-nodered-app2/002.png" alt="" width="20%" hight="20%"/>
+<img src="img/bluemix-nodered-app2/002.png" alt="" width="15%" hight="15%"/>
 </p>
 
 1. <a name="config_fromto"></a>Enter a value for `msg.driverTenantId`.
