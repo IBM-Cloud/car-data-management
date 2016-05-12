@@ -27,7 +27,7 @@ In part 1 of this tutorial, you will learn the following:
 In part 2 of this tutorial, you will learn how to see the results of the analysis on a map user interface by hovering the cursor over points on the map.
 
 
-For *"Tutorial part 2: View the analysis result on Map UI"*, refer to [this GitHub repository](https://github.com/IBM-Bluemix/map-driver-insights)
+For *"Tutorial part 2: Displaying the analysis result on a Java client map UI"*, refer to [this GitHub repository](https://github.com/IBM-Bluemix/map-driver-insights)
 
 ### Process
 The following steps provide a sequential outline of how your application interacts with the **Driver Behavior** API:
@@ -105,13 +105,13 @@ To complete part 1 of the tutorial, you must complete the following tasks:
 
 1. [Setting up Context Mapping](#set_up_context_mapping).
 2. [Setting up Driver Behavior](#set_up_driver_behavior).
-3. [Creating the Node-RED app](#create_the_node_red_app).
+3. [Creating the Node-RED application](#create_the_node_red_app).
 4. [Setting up a Watson IoT Platform instance](#set_up_iot_platform).
 5. [Setting up the Node-RED workflow for sending car probe data](#send_car_probe_data).
 6. [Setting up the Node-RED workflow for sending analysis job requests](#send_analysis_job_request).
-7. [Setting up the Java client of the Watson IoT Platform.](#set_up_iot_platform_java_client).
-8. [Running the sample - Send Car Probe Data](#run_sample_send_car_probe_data).
-9. [Running the sample - Send Analysis Job Request](#run_sample_send_analysis_job_request).
+7. [Setting up the Java client of the Watson IoT Platform](#set_up_iot_platform_java_client).
+8. [Running the Send Car Probe Data sample](#run_sample_send_car_probe_data).
+9. [Running the Send Analysis Job Request sample](#run_sample_send_analysis_job_request).
 10. [Optional: Setting up and running the Watson IoT Platform Java client by using Eclipse](#set_up_iot_platform_java_client_without_eclipse).
 
 
@@ -441,9 +441,9 @@ The Java Client library for the Watson IoT Platform and all required dependencie
 </p>
 **Important:** The analysis request is an asynchronous batch job, so you must wait for all  **Driver Behavior** APIs jobs to complete before you can see the analysis results.
 
-1. To view the analysis results, proceed to ["Tutorial Part 2: View the analysis result on Map UI"](https://github.com/IBM-Bluemix/map-driver-insights).
+1. To view the analysis results, proceed to [*"Tutorial Part 2: Displaying the analysis result on a Java client map UI"*](https://github.com/IBM-Bluemix/map-driver-insights).
 
-### Optional: Setting up and running the Watson IoT Platform Java client using Eclipse
+### Optional: Setting up and running the Watson IoT Platform Java client by using Eclipse
 <a name="set_up_iot_platform_java_client_without_eclipse"></a>
 As an alternative to step 7, you can set up and run the Java client in the Eclipse environment instead.
 
