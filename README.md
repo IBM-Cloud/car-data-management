@@ -481,5 +481,5 @@ For more information about Java and Eclipse, [click here](http://help.eclipse.or
 
 
 ## API Documentation
-* [IBM Watson IoT Driver Behavior](https://new-console.ng.bluemix.net/apidocs/193)
-* [IBM Watson IoT Context Mapping](https://new-console.ng.bluemix.net/apidocs/194)
+* [IBM Watson IoT Driver Behavior](http://ibm.biz/IoTDriverBehavior_APIdoc)
+* [IBM Watson IoT Context Mapping](http://ibm.biz/IoTContextMapping_APIdoc)
