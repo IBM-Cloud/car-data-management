@@ -485,5 +485,5 @@ For more information about Java and Eclipse, [click here](http://help.eclipse.or
 * [IBM Watson IoT Context Mapping](http://ibm.biz/IoTContextMapping_APIdoc)
 
 ## Copyright
-* [&copy; OpenStreetMap contributors](http://www.openstreetmap.org/copyright){:new_window}
-* [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/){:new_window}
+* [&copy; OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
+* [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/)
