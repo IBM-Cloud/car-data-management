@@ -386,16 +386,22 @@ The Java client that you are about to install, loads sample car probe data from 
 
 1. Clone the **car-data-management** project by using git clone, as follows:
 
-    `git clone https://github.com/IBM-Bluemix/car-data-management`
+    ```
+    git clone https://github.com/IBM-Bluemix/car-data-management
+    ```
 
 1. Navigate to the **car-data-management** project.
 
-    `cd car-data-management`
+    ```
+    cd car-data-management
+    ```
 
 1. Run the maven build as follows to build the Java client.
 
-    `mvn clean compile`
 
+    ```
+    mvn clean compile
+    ```
 The Java Client library for the Watson IoT Platform and all required dependencies are downloaded and the build process starts.
 
 ### Step 8: Running the Send Car Probe Data sample
@@ -405,7 +411,9 @@ The Java Client library for the Watson IoT Platform and all required dependencie
 
 1. Run the sample by using the following maven command:
 
-    `mvn test`
+    ```
+    mvn test
+    ```
 
 3. To see whether the Java client Successfully transmitted the car probe data to **Watson IoT Platform**, check the log file:
 
