@@ -39,7 +39,7 @@
 	"type": "function",
 	"z": "cd02bfe3.0ff92",
 	"name": "Config",
-	"func": "msg.driverHostname = \"automotive.internetofthings.ibmcloud.com\";\nmsg.driverTenantId = \"FIX-ME\";\nmsg.payload = {\"from\": \"2016-03-11\", \"to\": \"2016-3-11\"};\nreturn msg;",
+	"func": "msg.driverHostname = \"automotive.internetofthings.ibmcloud.com\";\nmsg.driverTenantId = \"FIX-ME\";\nmsg.payload = {\"from\": \"2016-03-11\", \"to\": \"2016-03-11\"};\nreturn msg;",
 	"outputs": 1,
 	"noerr": 0,
 	"x": 353,
